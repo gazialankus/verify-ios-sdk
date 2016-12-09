@@ -158,7 +158,8 @@ class ServiceExecutor {
             mutableParams = [:]
         }
         
-        let timestamp = "\(Int(timestamp.timeIntervalSince1970))"
+        //let timestamp = "\(Int(timestamp.timeIntervalSince1970))"
+        let timestamp = "\(NexmoTimestampCorrection.deviceToServer(UInt64(timestamp.timeIntervalSince1970)))"
         if (mutableParams.count != 0) {
             mutableParams[ServiceExecutor.PARAM_APP_ID] = nexmoClient.applicationId
         }
@@ -227,7 +228,8 @@ class ServiceExecutor {
             mutableParams = [:]
         }
         
-        let timestampString = "\(Int(timestamp.timeIntervalSince1970))"
+        //let timestampString = "\(Int(timestamp.timeIntervalSince1970))"
+        let timestampString = "\(NexmoTimestampCorrection.deviceToServer(UInt64(timestamp.timeIntervalSince1970)))"
         if (mutableParams.count != 0) {
             mutableParams[ServiceExecutor.PARAM_APP_ID] = nexmoClient.applicationId
         }

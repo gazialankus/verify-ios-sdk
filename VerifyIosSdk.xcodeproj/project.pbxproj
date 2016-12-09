@@ -66,6 +66,7 @@
 		2AE0DE6D1B80F92E008C308F /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE0DE6C1B80F92E008C308F /* SearchRequest.swift */; };
 		2AE0DE701B80F937008C308F /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE0DE6F1B80F937008C308F /* SearchResponse.swift */; };
 		2AE0DE731B80FDD9008C308F /* SDKSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE0DE721B80FDD9008C308F /* SDKSearchService.swift */; };
+		5539040B1DFB4B36009BF9F2 /* NexmoTimestampCorrection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539040A1DFB4B36009BF9F2 /* NexmoTimestampCorrection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +150,7 @@
 		2AE0DE6C1B80F92E008C308F /* SearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
 		2AE0DE6F1B80F937008C308F /* SearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		2AE0DE721B80FDD9008C308F /* SDKSearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKSearchService.swift; sourceTree = "<group>"; };
+		5539040A1DFB4B36009BF9F2 /* NexmoTimestampCorrection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NexmoTimestampCorrection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +257,7 @@
 		2ABA3ABB1B6166A800EB4842 /* VerifyIosSdk */ = {
 			isa = PBXGroup;
 			children = (
+				5539040A1DFB4B36009BF9F2 /* NexmoTimestampCorrection.swift */,
 				2AE0DE681B80F8E6008C308F /* SearchService */,
 				2ADD5E391B7B5C7F00650E1B /* VerifyService */,
 				2ADD5E381B7B5C7500650E1B /* TokenService */,
@@ -575,6 +578,7 @@
 				2A573E8A1B9F453600D16EE0 /* CheckReponseFactory.swift in Sources */,
 				2A573E871B9F423F00D16EE0 /* SearchResponseFactory.swift in Sources */,
 				2A9325451B8A1D4200217D87 /* ControlRequest.swift in Sources */,
+				5539040B1DFB4B36009BF9F2 /* NexmoTimestampCorrection.swift in Sources */,
 				2A573E8D1B9F45F400D16EE0 /* VerifyResponseFactory.swift in Sources */,
 				2A2DDAFE1B946F36009E4AE9 /* ResponseFactory.swift in Sources */,
 				2A26A7841B6168C30062B9FD /* SDKCheckService.swift in Sources */,

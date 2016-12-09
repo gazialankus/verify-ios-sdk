@@ -62,7 +62,7 @@ class BaseResponse {
                 self.messageBody = body
                 self.resultCode = resultCode
                 self.resultMessage = resultMessage
-                self.timestamp = timestamp
+                self.timestamp = String(NexmoTimestampCorrection.serverToDevice(UInt64(timestamp)!))
                 self.json = [:]
 
                 if let signature = httpResponse.headers[ServiceExecutor.RESPONSE_SIG] as? String {
