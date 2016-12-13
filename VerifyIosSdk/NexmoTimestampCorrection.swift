@@ -11,13 +11,13 @@ import Foundation
 public class NexmoTimestampCorrection {
 
     // server = device - deviceMinusServerSeconds
-    static public var deviceMinusServerSeconds : UInt64 = 0;
+    static public var deviceMinusServerSeconds : Int64 = 0;
     
-    static public func serverToDevice(server: UInt64) -> UInt64 {
+    static public func serverToDevice(server: Int64) -> Int64 {
         return server + deviceMinusServerSeconds;
     }
     
-    static public func deviceToServer(device: UInt64) -> UInt64 {
+    static public func deviceToServer(device: Int64) -> Int64 {
         return device - deviceMinusServerSeconds;
     }
 
